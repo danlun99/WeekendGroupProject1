@@ -1,3 +1,135 @@
-* {
-    margin: 0;
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for sign in buttons */
+  button {
+    background-color: rgb(30, 71, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  /* Set a style for sign un buttons */
+  .button2 {
+    background-color: rgb(30, 71, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 1000px;
+    overflow: hidden;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    border-radius: 25px;
+  }
+  
+/*rounded corners for container*/
+  #rcorners1 {
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 30px; 
+    width: 400px;
+    height: 12px;  
+  }
+  /*rounded corners for sign in button*/
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px; 
+    width: 150px;
+    height: 12px;  
 }
+/*holding background */
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Top right inputs */
+.top-right {
+    position: absolute;
+    top: 199px;
+    right: 100px;
+  }
+ 
+ /* Sign up button location*/
+.top-left {
+    position: absolute;
+    top: 240px;
+    left: 300px;
+ }
+
+  /* Sign in button location */
+.bottom-right {
+    position: absolute;
+    bottom: 1350px;
+    right: 225px;
+  }
+   /* facebook Icon location */
+.bottom-right2 {
+    position: absolute;
+    bottom: 1200px;
+    right: 225px;
+  }
+     /* Twitter Icon location */
+.bottom-right3 {
+    position: absolute;
+    bottom: 1200px;
+    right: 350px;
+  }
+     /* social Text location */
+     .bottom-right4 {
+        position: absolute;
+        bottom: 1275px;
+        right: 225px;
+      }
+  /* Grid to make left and right of page*/
+  .grid-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    background-color: white;
+    padding: 10px;
+    position : relative;
+    
+  }
+  .grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 100px;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+  }
